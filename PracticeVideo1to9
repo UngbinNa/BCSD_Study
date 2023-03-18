@@ -447,29 +447,7 @@ public class Exercise00 : MonoBehaviour
         int hp = -10;
         hp = hp < 0 ? 0 : hp;
         Debug.Log("체력:" + hp);
-        
-        
-        int a = 5 + 6;
-        int b = a - 3;
-        int c = a * b;
-        int d = c / 8;
-        int e = d % 4;
-        Debug.Log($"{a} = 5 + 6");
-        Debug.Log($"{b} = {a} - 3");
-        Debug.Log($"{c} = {a} * {b}");
-        Debug.Log($"{d} = {c} / 8");
-        Debug.Log($"{e} = {d} % 4");
-        
-        
-        
-        
-        
-        
-        
-        
-      
-        
-        
+     
         int a = 3;                          // 0000 0011
         
         Debug.Log($"{a} << 1 = {a << 1}");  // 0000 0110 = 6
